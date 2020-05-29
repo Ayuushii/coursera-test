@@ -17,18 +17,13 @@ h1{
     }
 }
 @media (min-width:768px) and (max-width:991px){
-    outer-box{
+    .outer-box{
+        width:50%;
         float:left;
     }
-    .one{
-        width:49%;
-        display:inline-block;
-    }
-    .two{
-        width:49%;
-    }
-    .three{
-        clear:left;
+    .tab{
+        width:100%;
+        float:left;
     }
 }
 @media (max-width:767px){
@@ -46,6 +41,9 @@ h1{
 }
 .outer-box{
     padding:10px;
+}
+.tab{
+    padding:10px
 }
 h2{
     float:right;
